@@ -23,7 +23,7 @@ Programs of farPCA Algorithm [1]
 [1] Xu Feng, Wenjian Yu. A Fast Adaptive Randomized PCA Algorithm. in Proc. 32nd International Joint Conference on Artificial Intelligence (IJCAI), Aug. 2023. (accepted)
 
 [2] Intel oneAPI Math Kernel Library. https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html, 2021. 
-.
+
 [3] Xu Feng, Wenjian Yu, and Yuyang Xie. Pass-efficient randomized SVD with boosted accuracy. In Proc. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), Grenoble, France, Sep. 2022, pp. 3-20.
 
 [4] Wenjian Yu, Yu Gu, and Yaohang Li. Efficient randomized algorithms for the fixed-precision low-rank matrix approximation. SIAM Journal on Matrix Analysis and Applications, 39(3):1339–1359, 2018.
