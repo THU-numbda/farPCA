@@ -1,5 +1,5 @@
-function [Y, S, W] = farPCA(A, relerr, b, p, Omega)
-% [Y, S, W] = farPCA(A, relerr, b, P)
+function [Y, S, W] = farPCA1(A, relerr, b, p, Omega)
+% [Y, S, W] = farPCA1(A, relerr, b, P)
 % The fixed-precision randQB_EI algorithm.
 % It produces approximate PCA of A, whose approximation error fulfills
 %     ||A-YSW'||_F <= ||A||_F* relerr.
