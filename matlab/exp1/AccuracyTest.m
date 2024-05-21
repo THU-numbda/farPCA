@@ -43,7 +43,7 @@ for p = 0:1:pmax
     err2_f = [err2_f, (norm(A-u2*s2*v2', 'fro')-Ak_f)/Ak_f];
     err2_s = [err2_s, (norm(A-u2*s2*v2', 2)-Ak_2)/Ak_2];
     
-    [u3, s3, v3] = farPCA(A, 0, 20, p, Omega);
+    [u3, s3, v3] = farPCA1(A, 0, 20, p, Omega);
     sst = diag((u3'*A)*A'*u3);
     sst = flipud(sst);
     pvet = max(abs(sst-ss)./s101);
